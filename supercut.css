@@ -98,7 +98,7 @@ a.menu
 
 #map
     {
-        width: 650%;
+        width: 90%;
         min-height: 500px;
         height: auto;
     }
@@ -149,7 +149,7 @@ tr
 }
 #pricesheet
 {
-    width: 100%;
+    width: 90%;
     
     min-height: 500px;
     font-size: 4vw;
