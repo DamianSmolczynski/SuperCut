@@ -1,0 +1,186 @@
+@font-face {
+    font-family: Staatliches;
+    src: url("Staatliches-Regular.ttf");
+}
+
+
+body{
+    max-width: 100vw;
+    height: auto;
+    font-family: Staatliches;
+    }
+#wrapper
+{
+    max-width: 100vw;
+    height: auto;
+    overflow:hidden;
+}
+
+#logo   
+    { 
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+    #l1
+    {
+       width: 45%;
+       height: 100%;
+    }
+nav
+    {
+        
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+a.menu
+    {
+        width: 20%;
+        text-align: center;
+        color: white;
+        font-size: 3.1vw;
+        text-decoration:none;
+    }  
+.home
+    {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+#photo
+    {
+        max-width: 100%;
+        width: 100%;
+        min-width: 1000px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+ }
+ #l2
+ {width: 85%;
+ }
+
+.unit_header
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+    background-image: url(barbershop.png);
+    
+    padding: 5px;
+    border-top: black 4px solid;
+    border-bottom: black 4px solid;
+    align-items: center;
+    font-weight: bold;
+    font-size: 6.5vw;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#location
+{
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#map
+    {
+        width: 650%;
+        min-height: 500px;
+        height: auto;
+    }
+
+#prices
+{
+    
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    width: 80%;
+    max-width: 720px;
+    min-height: 500px;
+    
+
+}
+
+
+thead tbody
+{
+    width: 60%;   
+}
+tr
+{
+    min-height: 50px;
+}
+.header_service
+{
+    width: 70%;
+    text-align: left;
+}
+.header_price
+{
+    text-align: right;
+    width: 30%;
+}
+#pricesheet
+{
+    width: 100%;
+    
+    min-height: 500px;
+    font-size: 4vw;
+    border: black solid 6px;
+}
+iframe
+{
+    border: black solid 6px;
+}
+#contact, #about_us
+{
+    font-size: 3.5vw;
+    text-align: center;
+    
+}
+address a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+#your_style,#best_service
+{
+    color: cornflowerblue;
+}
+#perfection, #satisfaction
+{
+    color: firebrick;
+}
+
+#first_article
+{
+    margin-top: 0px;
+}
+
