@@ -7,6 +7,22 @@
     to{font-size: 3.1vw;color: white}
 }
 
+@keyframes contactButton {
+    from {
+        font-size: 3.5vw;
+        color: cornflowerblue;
+    }
+    to {
+        font-size: 4vw;
+        color: firebrick;
+    }
+}
+@keyframes contactButtonReturn {
+    from{font-size: 4vw; color: firebrick;}
+    to{font-size: 3.5vw; color: cornflowerblue;}
+
+}
+
 @font-face {
     font-family: Staatliches;
     src: url("Staatliches-Regular.ttf");

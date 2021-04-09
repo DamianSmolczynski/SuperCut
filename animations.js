@@ -11,10 +11,11 @@ menuButton.on("mouseout", function(){
 
 contactButton.on("mouseover", function(){
     $(this).css({
-            'font-size' : '4vw'}
+            "animation-name": "contactButton", "animation-duration":"0.3s", "animation-fill-mode": "forwards",
+            "animation-timing-function": "ease"}
     );});
 
 contactButton.on("mouseout", function(){
     $(this).css({
-        'font-size' : '3.5vw'}
-    );});
+        "animation-name": "contactButtonReturn", "animation-duration":"0.3s",
+        "animation-timing-function": "ease"})});
